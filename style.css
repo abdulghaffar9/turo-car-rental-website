@@ -1,0 +1,14 @@
+@font-face {
+    font-family: mercury;
+    src: url(/fonts/Mercury\ Display\ Roman.otf);
+}
+
+
+.logo{
+    clip-path: polygon(0 0, 80% 1%, 100% 51%, 81% 100%, 0% 100%);
+}
+
+
+.active{
+    background-color: black;
+}
