@@ -57,7 +57,7 @@ prevBtn3.addEventListener("click", () => {
 //change the bg image on click
 
 function changeImg(){
-  document.querySelector(".hero-section").style.backgroundImage = "url(../images/airport.webp)";
+  document.querySelector(".hero-section").style.backgroundImage = "url(https://turo.com/_next/static/images/ace253055593e1b9cfe4fdaae8fb0e5b.webp)";
   console.log("heyyyyyy");
   document.querySelector(".all").classList.remove("active");
   document.querySelector(".all").style.color = "black";
@@ -67,7 +67,7 @@ function changeImg(){
 
 
 function changeImg2(){
-  document.querySelector(".hero-section").style.backgroundImage = "url(../images/monthly.webp)";
+  document.querySelector(".hero-section").style.backgroundImage = "url(https://turo.com/_next/static/images/6cd3964c76e1bd830a9c452e48548958.webp)";
   console.log("heyyyyyy");
   document.querySelector(".airport").classList.remove("active");
   document.querySelector(".airport").style.color = "black";
