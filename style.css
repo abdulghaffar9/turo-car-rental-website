@@ -12,3 +12,10 @@
 .active{
     background-color: black;
 }
+
+hero-section{
+    background-image: url(./images/hero-bg.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
