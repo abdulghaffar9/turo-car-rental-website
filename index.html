@@ -26,15 +26,17 @@
 
 <!-- Hero section started -->
 <section class="hero-section flex w-full lg:w-[80vw] lg:h-[400px] rounded-3xl mx-auto mt-8 flex-col p-4 bg-[url('../images/hero-bg-mobile.webp')] lg:bg-[url('../images/hero-bg.webp')] bg-cover bg-center bg-no-repeat ">
-<h1 class="hero-headline mx-auto text-6xl text-white tracking-tighter font-semibold mt-12 font-[mercury] ">Skip the rental car counter</h1>
-<p class="hero-text mx-auto text-2xl font-light mt-5 text-white">Rent just about any car, just about anywhere</p>
+<h1 class="hero-headline mx-auto text-center text-4xl lg:text-6xl text-white tracking-tight font-semibold mt-12 font-[mercury] ">Skip the rental car counter</h1>
+<p class="hero-text mx-auto text-[18px] lg:text-2xl text-center font-light mt-5 text-white">Rent just about any car, just about anywhere</p>
 
-<div class="dates-container p-2 items-center  lg:justify-evenly lg:flex w-full lg:w-[90%] grid h-[100px] bg-white mx-auto mt-8 rounded-3xl grid-cols-2 overflow-hidden">
-<div class="forSmallScreen  lg:hidden mx-auto w-[90vw] flex justify-between items-center    px-2  gap-3 overflow-hidden">
+<div class="dates-container  items-center text-center  lg:justify-evenly lg:flex w-full lg:w-[90%] grid h-[50px] lg:h-[100px] mx-auto mt-4 lg:mt-8 bg-white rounded-3xl grid-cols-2 overflow-hidden">
+<div class="forSmallScreen  lg:hidden mx-auto w-[90vw] flex justify-between items-center    px-2 py-0 overflow-hidden">
   <input type="text " class=" flex-1 p-2 md:text-2xl sm:text-xl" name="where" id="locate" placeholder="Search Anywhere">
   <div class="box w-[40px] h-[40px] rounded-2xl bg-blue-600  items-center text-center content-center ">
     <span class="items-center text-center"><i class="fa-solid fa-magnifying-glass text-white font-light"></i></span>
   </div>
+
+  
 </div>
 
 
@@ -65,6 +67,11 @@
 
 
 </div>
+<div class="btn flex flex-nowrap text-center mx-auto w-[200px] bg-white p-2 rounded gap-5 font-semibold mt-8 cursor-pointer">
+  <button class="cursor-pointer">Get to know Turo</button>
+  <span><i class="fa-solid fa-play border-l border-gray-400 px-2"></i></span>
+</div>
+
 </section>
 <!-- Hero section ended -->
 
@@ -87,11 +94,11 @@
 <!-- page 1 cars for rent started -->
 <div class=" sm:w-[80vw]   mx-auto mt-6 ">
   <!-- Buttons -->
-  <div class="flex mb-3 gap-3  justify-between  items-center ">
-    <h1 class="font-bold text-2xl">SUV rental at Miami (MIA) airport <span><i class="fa-solid fa-chevron-right"></i></span></h1>
-    <div class="btn flex flex-nowrap gap-2 ">
-      <button id="prevBtn1" class="px-4 py-2 border border-black rounded"><i class="fa-solid fa-chevron-right"></i></button>
-    <button id="nextBtn1" class="px-4 py-2 rounded border border-black"><i class="fa-solid fa-chevron-left"></i></button>
+  <div class="flex mb-3 gap-3  p-4  justify-between  items-center ">
+    <h1 class="font-bold text-xl lg:text-2xl">SUV rental at Miami (MIA) airport <span><i class="fa-solid fa-chevron-right"></i></span></h1>
+    <div class="btn flex flex-nowrap gap-2 p-2 ">
+      <button id="prevBtn1" class="px-2 py-[.5px] lg:py-2 border-[.5px] border-gray-200  rounded"><i class="fa-solid fa-chevron-right "></i></button>
+    <button id="nextBtn1" class="px-2 py-[.5px] lg:py-2 rounded border border-gray-200"><i class="fa-solid fa-chevron-left"></i></button>
     </div>
   </div>
 
@@ -101,84 +108,81 @@
   <div id="cardContainer1"
        class="flex gap-4 overflow-hidden ">
     
+
     <!-- Cards -->
-    <div class="lg:min-w-[300px] sm:w-[150px]   text-white flex items-left rounded flex-col p-3">
+    <div class="lg:w-[330px] w-[180px] shrink-0  text-white flex items-left rounded flex-col p-3">
       <div class="image  sm:w-[150px] lg:w-[300px] h-[150px] rounded-xl overflow-hidden">
-       <img src="https://images.turo.com/media/vehicle/images/uuv8qugiQjGdf5TZ0V8uaw.445x238.jpg" alt="hero image" class="object-cover w-[300px] h-[150px]">
+       <img src="https://images.turo.com/media/vehicle/images/uuv8qugiQjGdf5TZ0V8uaw.445x238.jpg" alt="hero image" class="object-cover  lg:w-[300px] lg:h-[150px] w-[250px]  ">
       </div>
-      <h1 class="font-bold text-2xl text-black">Chevrolet Equinox 2026</h1>
+      <h1 class="font-bold mt-[-60px] lg:mt-0 text-xl lg:text-2xl text-black">Chevrolet Equinox 2026</h1>
       <p class="text-xl text-black font-bold">4.99  <span class="text-blue-800">&#9733;</span> <span class="text-gray-500 font-extralight">(14 Trips)</span></p>
-      <div class="price flex justify-between gap-20">
-       <button class="bg-green-200 rounded p-1 mt-6 text-black">save &#36;6</button>
-       <p class="text-black mt-6 font-bold">$182 for 3 days</p>
-      </div>
-    </div>
-   
-
-    <div class="min-w-[300px]   text-white flex items-left rounded flex-col p-3">
-      <div class="image w-[300px] h-[150px] rounded-xl overflow-hidden">
-       <img src="https://images.turo.com/media/vehicle/images/zWX6_x5pR5KLxeS_9cxdsg.445x238.jpg" alt="hero image" class="object-cover w-[300px] h-[150px]">
-      </div>
-      <h1 class="font-bold text-2xl text-black">Chevrolet Equinox 2026</h1>
-      <p class="text-xl text-black font-bold">4.99  <span class="text-blue-800">&#9733;</span> <span class="text-gray-500 font-extralight">(14 Trips)</span></p>
-      <div class="price flex justify-between gap-20">
-       <button class="bg-green-200 rounded p-1 mt-6 text-black">save &#36;6</button>
-       <p class="text-black mt-6 font-bold">$182 for 3 days</p>
+      <div class="price flex justify-between gap-5 lg:gap-20">
+       <button class="bg-green-200 rounded p-1 mt-6 text-black text-[15px]">save &#36;6</button>
+       <p class="text-black mt-6 font-bold text-[15px]">$182 for 3 days</p>
       </div>
     </div>
 
-
-    <div class="min-w-[300px]   text-white flex items-left rounded flex-col p-3">
-      <div class="image w-[300px] h-[150px] rounded-xl overflow-hidden">
-       <img src="https://images.turo.com/media/vehicle/images/-bx9C_WmT4O8hkM8LBDpbA.445x238.jpg" alt="hero image" class="object-cover w-[300px] h-[150px]">
+    <div class="lg:w-[330px] w-[180px] shrink-0  text-white flex items-left rounded flex-col p-3">
+      <div class="image  sm:w-[150px] lg:w-[300px] h-[150px] rounded-xl overflow-hidden">
+       <img src="https://images.turo.com/media/vehicle/images/uuv8qugiQjGdf5TZ0V8uaw.445x238.jpg" alt="hero image" class="object-cover  lg:w-[300px] lg:h-[150px] w-[250px]  ">
       </div>
-      <h1 class="font-bold text-2xl text-black">Chevrolet Equinox 2026</h1>
+      <h1 class="font-bold mt-[-60px] lg:mt-0 text-xl lg:text-2xl text-black">Chevrolet Equinox 2026</h1>
       <p class="text-xl text-black font-bold">4.99  <span class="text-blue-800">&#9733;</span> <span class="text-gray-500 font-extralight">(14 Trips)</span></p>
-      <div class="price flex justify-between gap-20">
-       <button class="bg-green-200 rounded p-1 mt-6 text-black">save &#36;6</button>
-       <p class="text-black mt-6 font-bold">$182 for 3 days</p>
+      <div class="price flex justify-between gap-5 lg:gap-20">
+       <button class="bg-green-200 rounded p-1 mt-6 text-black text-[15px]">save &#36;6</button>
+       <p class="text-black mt-6 font-bold text-[15px]">$182 for 3 days</p>
       </div>
     </div>
 
-
-    <div class="min-w-[300px]   text-white flex items-left rounded flex-col p-3">
-      <div class="image w-[300px] h-[150px] rounded-xl overflow-hidden">
-       <img src="https://images.turo.com/media/vehicle/images/RQvuUrS3QoqUztFAFUiOQA.445x238.jpg" alt="hero image" class="object-cover w-[300px] h-[150px]">
+    <div class="lg:w-[330px] w-[180px] shrink-0  text-white flex items-left rounded flex-col p-3">
+      <div class="image  sm:w-[150px] lg:w-[300px] h-[150px] rounded-xl overflow-hidden">
+       <img src="https://images.turo.com/media/vehicle/images/uuv8qugiQjGdf5TZ0V8uaw.445x238.jpg" alt="hero image" class="object-cover  lg:w-[300px] lg:h-[150px] w-[250px]  ">
       </div>
-      <h1 class="font-bold text-2xl text-black">Chevrolet Equinox 2026</h1>
+      <h1 class="font-bold mt-[-60px] lg:mt-0 text-xl lg:text-2xl text-black">Chevrolet Equinox 2026</h1>
       <p class="text-xl text-black font-bold">4.99  <span class="text-blue-800">&#9733;</span> <span class="text-gray-500 font-extralight">(14 Trips)</span></p>
-      <div class="price flex justify-between gap-20">
-       <button class="bg-green-200 rounded p-1 mt-6 text-black">save &#36;6</button>
-       <p class="text-black mt-6 font-bold">$182 for 3 days</p>
+      <div class="price flex justify-between gap-5 lg:gap-20">
+       <button class="bg-green-200 rounded p-1 mt-6 text-black text-[15px]">save &#36;6</button>
+       <p class="text-black mt-6 font-bold text-[15px]">$182 for 3 days</p>
       </div>
     </div>
 
-
-    <div class="min-w-[300px]   text-white flex items-left rounded flex-col p-3">
-      <div class="image w-[300px] h-[150px] rounded-xl overflow-hidden">
-       <img src="https://images.turo.com/media/vehicle/images/zzKlgzG4TFOY3PtipUO02Q.445x238.jpg" alt="hero image" class="object-cover w-[300px] h-[150px]">
+    <div class="lg:w-[330px] w-[180px] shrink-0  text-white flex items-left rounded flex-col p-3">
+      <div class="image  sm:w-[150px] lg:w-[300px] h-[150px] rounded-xl overflow-hidden">
+       <img src="https://images.turo.com/media/vehicle/images/uuv8qugiQjGdf5TZ0V8uaw.445x238.jpg" alt="hero image" class="object-cover  lg:w-[300px] lg:h-[150px] w-[250px]  ">
       </div>
-      <h1 class="font-bold text-2xl text-black">Chevrolet Equinox 2026</h1>
+      <h1 class="font-bold mt-[-60px] lg:mt-0 text-xl lg:text-2xl text-black">Chevrolet Equinox 2026</h1>
       <p class="text-xl text-black font-bold">4.99  <span class="text-blue-800">&#9733;</span> <span class="text-gray-500 font-extralight">(14 Trips)</span></p>
-      <div class="price flex justify-between gap-20">
-       <button class="bg-green-200 rounded p-1 mt-6 text-black">save &#36;6</button>
-       <p class="text-black mt-6 font-bold">$182 for 3 days</p>
+      <div class="price flex justify-between gap-5 lg:gap-20">
+       <button class="bg-green-200 rounded p-1 mt-6 text-black text-[15px]">save &#36;6</button>
+       <p class="text-black mt-6 font-bold text-[15px]">$182 for 3 days</p>
       </div>
     </div>
 
+    <div class="lg:w-[330px] w-[180px] shrink-0  text-white flex items-left rounded flex-col p-3">
+      <div class="image  sm:w-[150px] lg:w-[300px] h-[150px] rounded-xl overflow-hidden">
+       <img src="https://images.turo.com/media/vehicle/images/uuv8qugiQjGdf5TZ0V8uaw.445x238.jpg" alt="hero image" class="object-cover  lg:w-[300px] lg:h-[150px] w-[250px]  ">
+      </div>
+      <h1 class="font-bold mt-[-60px] lg:mt-0 text-xl lg:text-2xl text-black">Chevrolet Equinox 2026</h1>
+      <p class="text-xl text-black font-bold">4.99  <span class="text-blue-800">&#9733;</span> <span class="text-gray-500 font-extralight">(14 Trips)</span></p>
+      <div class="price flex justify-between gap-5 lg:gap-20">
+       <button class="bg-green-200 rounded p-1 mt-6 text-black text-[15px]">save &#36;6</button>
+       <p class="text-black mt-6 font-bold text-[15px]">$182 for 3 days</p>
+      </div>
+    </div>
 
   </div>
 </div>
 
 
+
 <!-- page 2 cars for rent started -->
 <div class=" sm:w-[80vw]   mx-auto mt-6 ">
   <!-- Buttons -->
-  <div class="flex mb-3 gap-3  justify-between  items-center ">
-    <h1 class="font-bold text-2xl">SUV rental at Miami (MIA) airport <span><i class="fa-solid fa-chevron-right"></i></span></h1>
-    <div class="btn flex flex-nowrap gap-2 ">
-      <button id="prevBtn2" class="px-4 py-2 border border-black rounded"><i class="fa-solid fa-chevron-right"></i></button>
-    <button id="nextBtn2" class="px-4 py-2 rounded border border-black"><i class="fa-solid fa-chevron-left"></i></button>
+  <div class="flex mb-3 gap-3  p-4  justify-between  items-center ">
+    <h1 class="font-bold text-xl lg:text-2xl">SUV rental at Miami (MIA) airport <span><i class="fa-solid fa-chevron-right"></i></span></h1>
+    <div class="btn flex flex-nowrap gap-2 p-2 ">
+      <button id="prevBtn2" class="px-2 py-[.5px] lg:py-2 border-[.5px] border-gray-200  rounded"><i class="fa-solid fa-chevron-right "></i></button>
+    <button id="nextBtn2" class="px-2 py-[.5px] lg:py-2 rounded border border-gray-200"><i class="fa-solid fa-chevron-left"></i></button>
     </div>
   </div>
 
@@ -188,71 +192,67 @@
   <div id="cardContainer2"
        class="flex gap-4 overflow-hidden ">
     
+
     <!-- Cards -->
-    <div class="lg:min-w-[300px] sm:w-[150px]   text-white flex items-left rounded flex-col p-3">
+    <div class="lg:w-[330px] w-[180px] shrink-0  text-white flex items-left rounded flex-col p-3">
       <div class="image  sm:w-[150px] lg:w-[300px] h-[150px] rounded-xl overflow-hidden">
-       <img src="https://images.turo.com/media/vehicle/images/uuv8qugiQjGdf5TZ0V8uaw.445x238.jpg" alt="hero image" class="object-cover w-[300px] h-[150px]">
+       <img src="https://images.turo.com/media/vehicle/images/uuv8qugiQjGdf5TZ0V8uaw.445x238.jpg" alt="hero image" class="object-cover  lg:w-[300px] lg:h-[150px] w-[250px]  ">
       </div>
-      <h1 class="font-bold text-2xl text-black">Chevrolet Equinox 2026</h1>
+      <h1 class="font-bold mt-[-60px] lg:mt-0 text-xl lg:text-2xl text-black">Chevrolet Equinox 2026</h1>
       <p class="text-xl text-black font-bold">4.99  <span class="text-blue-800">&#9733;</span> <span class="text-gray-500 font-extralight">(14 Trips)</span></p>
-      <div class="price flex justify-between gap-20">
-       <button class="bg-green-200 rounded p-1 mt-6 text-black">save &#36;6</button>
-       <p class="text-black mt-6 font-bold">$182 for 3 days</p>
-      </div>
-    </div>
-   
-
-    <div class="min-w-[300px]   text-white flex items-left rounded flex-col p-3">
-      <div class="image w-[300px] h-[150px] rounded-xl overflow-hidden">
-       <img src="https://images.turo.com/media/vehicle/images/zWX6_x5pR5KLxeS_9cxdsg.445x238.jpg" alt="hero image" class="object-cover w-[300px] h-[150px]">
-      </div>
-      <h1 class="font-bold text-2xl text-black">Chevrolet Equinox 2026</h1>
-      <p class="text-xl text-black font-bold">4.99  <span class="text-blue-800">&#9733;</span> <span class="text-gray-500 font-extralight">(14 Trips)</span></p>
-      <div class="price flex justify-between gap-20">
-       <button class="bg-green-200 rounded p-1 mt-6 text-black">save &#36;6</button>
-       <p class="text-black mt-6 font-bold">$182 for 3 days</p>
+      <div class="price flex justify-between gap-5 lg:gap-20">
+       <button class="bg-green-200 rounded p-1 mt-6 text-black text-[15px]">save &#36;6</button>
+       <p class="text-black mt-6 font-bold text-[15px]">$182 for 3 days</p>
       </div>
     </div>
 
-
-    <div class="min-w-[300px]   text-white flex items-left rounded flex-col p-3">
-      <div class="image w-[300px] h-[150px] rounded-xl overflow-hidden">
-       <img src="https://images.turo.com/media/vehicle/images/-bx9C_WmT4O8hkM8LBDpbA.445x238.jpg" alt="hero image" class="object-cover w-[300px] h-[150px]">
+    <div class="lg:w-[330px] w-[180px] shrink-0  text-white flex items-left rounded flex-col p-3">
+      <div class="image  sm:w-[150px] lg:w-[300px] h-[150px] rounded-xl overflow-hidden">
+       <img src="https://images.turo.com/media/vehicle/images/uuv8qugiQjGdf5TZ0V8uaw.445x238.jpg" alt="hero image" class="object-cover  lg:w-[300px] lg:h-[150px] w-[250px]  ">
       </div>
-      <h1 class="font-bold text-2xl text-black">Chevrolet Equinox 2026</h1>
+      <h1 class="font-bold mt-[-60px] lg:mt-0 text-xl lg:text-2xl text-black">Chevrolet Equinox 2026</h1>
       <p class="text-xl text-black font-bold">4.99  <span class="text-blue-800">&#9733;</span> <span class="text-gray-500 font-extralight">(14 Trips)</span></p>
-      <div class="price flex justify-between gap-20">
-       <button class="bg-green-200 rounded p-1 mt-6 text-black">save &#36;6</button>
-       <p class="text-black mt-6 font-bold">$182 for 3 days</p>
+      <div class="price flex justify-between gap-5 lg:gap-20">
+       <button class="bg-green-200 rounded p-1 mt-6 text-black text-[15px]">save &#36;6</button>
+       <p class="text-black mt-6 font-bold text-[15px]">$182 for 3 days</p>
       </div>
     </div>
 
-
-    <div class="min-w-[300px]   text-white flex items-left rounded flex-col p-3">
-      <div class="image w-[300px] h-[150px] rounded-xl overflow-hidden">
-       <img src="https://images.turo.com/media/vehicle/images/RQvuUrS3QoqUztFAFUiOQA.445x238.jpg" alt="hero image" class="object-cover w-[300px] h-[150px]">
+    <div class="lg:w-[330px] w-[180px] shrink-0  text-white flex items-left rounded flex-col p-3">
+      <div class="image  sm:w-[150px] lg:w-[300px] h-[150px] rounded-xl overflow-hidden">
+       <img src="https://images.turo.com/media/vehicle/images/uuv8qugiQjGdf5TZ0V8uaw.445x238.jpg" alt="hero image" class="object-cover  lg:w-[300px] lg:h-[150px] w-[250px]  ">
       </div>
-      <h1 class="font-bold text-2xl text-black">Chevrolet Equinox 2026</h1>
+      <h1 class="font-bold mt-[-60px] lg:mt-0 text-xl lg:text-2xl text-black">Chevrolet Equinox 2026</h1>
       <p class="text-xl text-black font-bold">4.99  <span class="text-blue-800">&#9733;</span> <span class="text-gray-500 font-extralight">(14 Trips)</span></p>
-      <div class="price flex justify-between gap-20">
-       <button class="bg-green-200 rounded p-1 mt-6 text-black">save &#36;6</button>
-       <p class="text-black mt-6 font-bold">$182 for 3 days</p>
+      <div class="price flex justify-between gap-5 lg:gap-20">
+       <button class="bg-green-200 rounded p-1 mt-6 text-black text-[15px]">save &#36;6</button>
+       <p class="text-black mt-6 font-bold text-[15px]">$182 for 3 days</p>
       </div>
     </div>
 
-
-    <div class="min-w-[300px]   text-white flex items-left rounded flex-col p-3">
-      <div class="image w-[300px] h-[150px] rounded-xl overflow-hidden">
-       <img src="https://images.turo.com/media/vehicle/images/zzKlgzG4TFOY3PtipUO02Q.445x238.jpg" alt="hero image" class="object-cover w-[300px] h-[150px]">
+    <div class="lg:w-[330px] w-[180px] shrink-0  text-white flex items-left rounded flex-col p-3">
+      <div class="image  sm:w-[150px] lg:w-[300px] h-[150px] rounded-xl overflow-hidden">
+       <img src="https://images.turo.com/media/vehicle/images/uuv8qugiQjGdf5TZ0V8uaw.445x238.jpg" alt="hero image" class="object-cover  lg:w-[300px] lg:h-[150px] w-[250px]  ">
       </div>
-      <h1 class="font-bold text-2xl text-black">Chevrolet Equinox 2026</h1>
+      <h1 class="font-bold mt-[-60px] lg:mt-0 text-xl lg:text-2xl text-black">Chevrolet Equinox 2026</h1>
       <p class="text-xl text-black font-bold">4.99  <span class="text-blue-800">&#9733;</span> <span class="text-gray-500 font-extralight">(14 Trips)</span></p>
-      <div class="price flex justify-between gap-20">
-       <button class="bg-green-200 rounded p-1 mt-6 text-black">save &#36;6</button>
-       <p class="text-black mt-6 font-bold">$182 for 3 days</p>
+      <div class="price flex justify-between gap-5 lg:gap-20">
+       <button class="bg-green-200 rounded p-1 mt-6 text-black text-[15px]">save &#36;6</button>
+       <p class="text-black mt-6 font-bold text-[15px]">$182 for 3 days</p>
       </div>
     </div>
 
+    <div class="lg:w-[330px] w-[180px] shrink-0  text-white flex items-left rounded flex-col p-3">
+      <div class="image  sm:w-[150px] lg:w-[300px] h-[150px] rounded-xl overflow-hidden">
+       <img src="https://images.turo.com/media/vehicle/images/uuv8qugiQjGdf5TZ0V8uaw.445x238.jpg" alt="hero image" class="object-cover  lg:w-[300px] lg:h-[150px] w-[250px]  ">
+      </div>
+      <h1 class="font-bold mt-[-60px] lg:mt-0 text-xl lg:text-2xl text-black">Chevrolet Equinox 2026</h1>
+      <p class="text-xl text-black font-bold">4.99  <span class="text-blue-800">&#9733;</span> <span class="text-gray-500 font-extralight">(14 Trips)</span></p>
+      <div class="price flex justify-between gap-5 lg:gap-20">
+       <button class="bg-green-200 rounded p-1 mt-6 text-black text-[15px]">save &#36;6</button>
+       <p class="text-black mt-6 font-bold text-[15px]">$182 for 3 days</p>
+      </div>
+    </div>
 
   </div>
 </div>
@@ -263,11 +263,11 @@
 <!-- page 3 cars for rent started -->
 <div class=" sm:w-[80vw]   mx-auto mt-6 ">
   <!-- Buttons -->
-  <div class="flex mb-3 gap-3  justify-between  items-center ">
-    <h1 class="font-bold text-2xl">SUV rental at Miami (MIA) airport <span><i class="fa-solid fa-chevron-right"></i></span></h1>
-    <div class="btn flex flex-nowrap gap-2">
-      <button id="prevBtn3" class="px-4 py-2 border border-black rounded"><i class="fa-solid fa-chevron-right"></i></button>
-    <button id="nextBtn3" class="px-4 py-2 rounded border border-black"><i class="fa-solid fa-chevron-left"></i></button>
+  <div class="flex mb-3 gap-3  p-4  justify-between  items-center ">
+    <h1 class="font-bold text-xl lg:text-2xl">SUV rental at Miami (MIA) airport <span><i class="fa-solid fa-chevron-right"></i></span></h1>
+    <div class="btn flex flex-nowrap gap-2 p-2 ">
+      <button id="prevBtn3" class="px-2 py-[.5px] lg:py-2 border-[.5px] border-gray-200  rounded"><i class="fa-solid fa-chevron-right "></i></button>
+    <button id="nextBtn3" class="px-2 py-[.5px] lg:py-2 rounded border border-gray-200"><i class="fa-solid fa-chevron-left"></i></button>
     </div>
   </div>
 
@@ -277,77 +277,74 @@
   <div id="cardContainer3"
        class="flex gap-4 overflow-hidden ">
     
+
     <!-- Cards -->
-    <div class="lg:min-w-[300px] sm:w-[150px]   text-white flex items-left rounded flex-col p-3">
+    <div class="lg:w-[330px] w-[180px] shrink-0  text-white flex items-left rounded flex-col p-3">
       <div class="image  sm:w-[150px] lg:w-[300px] h-[150px] rounded-xl overflow-hidden">
-       <img src="https://images.turo.com/media/vehicle/images/uuv8qugiQjGdf5TZ0V8uaw.445x238.jpg" alt="hero image" class="object-cover w-[300px] h-[150px]">
+       <img src="https://images.turo.com/media/vehicle/images/uuv8qugiQjGdf5TZ0V8uaw.445x238.jpg" alt="hero image" class="object-cover  lg:w-[300px] lg:h-[150px] w-[250px]  ">
       </div>
-      <h1 class="font-bold text-2xl text-black">Chevrolet Equinox 2026</h1>
+      <h1 class="font-bold mt-[-60px] lg:mt-0 text-xl lg:text-2xl text-black">Chevrolet Equinox 2026</h1>
       <p class="text-xl text-black font-bold">4.99  <span class="text-blue-800">&#9733;</span> <span class="text-gray-500 font-extralight">(14 Trips)</span></p>
-      <div class="price flex justify-between gap-20">
-       <button class="bg-green-200 rounded p-1 mt-6 text-black">save &#36;6</button>
-       <p class="text-black mt-6 font-bold">$182 for 3 days</p>
-      </div>
-    </div>
-   
-
-    <div class="min-w-[300px]   text-white flex items-left rounded flex-col p-3">
-      <div class="image w-[300px] h-[150px] rounded-xl overflow-hidden">
-       <img src="https://images.turo.com/media/vehicle/images/zWX6_x5pR5KLxeS_9cxdsg.445x238.jpg" alt="hero image" class="object-cover w-[300px] h-[150px]">
-      </div>
-      <h1 class="font-bold text-2xl text-black">Chevrolet Equinox 2026</h1>
-      <p class="text-xl text-black font-bold">4.99  <span class="text-blue-800">&#9733;</span> <span class="text-gray-500 font-extralight">(14 Trips)</span></p>
-      <div class="price flex justify-between gap-20">
-       <button class="bg-green-200 rounded p-1 mt-6 text-black">save &#36;6</button>
-       <p class="text-black mt-6 font-bold">$182 for 3 days</p>
+      <div class="price flex justify-between gap-5 lg:gap-20">
+       <button class="bg-green-200 rounded p-1 mt-6 text-black text-[15px]">save &#36;6</button>
+       <p class="text-black mt-6 font-bold text-[15px]">$182 for 3 days</p>
       </div>
     </div>
 
-
-    <div class="min-w-[300px]   text-white flex items-left rounded flex-col p-3">
-      <div class="image w-[300px] h-[150px] rounded-xl overflow-hidden">
-       <img src="https://images.turo.com/media/vehicle/images/-bx9C_WmT4O8hkM8LBDpbA.445x238.jpg" alt="hero image" class="object-cover w-[300px] h-[150px]">
+    <div class="lg:w-[330px] w-[180px] shrink-0  text-white flex items-left rounded flex-col p-3">
+      <div class="image  sm:w-[150px] lg:w-[300px] h-[150px] rounded-xl overflow-hidden">
+       <img src="https://images.turo.com/media/vehicle/images/uuv8qugiQjGdf5TZ0V8uaw.445x238.jpg" alt="hero image" class="object-cover  lg:w-[300px] lg:h-[150px] w-[250px]  ">
       </div>
-      <h1 class="font-bold text-2xl text-black">Chevrolet Equinox 2026</h1>
+      <h1 class="font-bold mt-[-60px] lg:mt-0 text-xl lg:text-2xl text-black">Chevrolet Equinox 2026</h1>
       <p class="text-xl text-black font-bold">4.99  <span class="text-blue-800">&#9733;</span> <span class="text-gray-500 font-extralight">(14 Trips)</span></p>
-      <div class="price flex justify-between gap-20">
-       <button class="bg-green-200 rounded p-1 mt-6 text-black">save &#36;6</button>
-       <p class="text-black mt-6 font-bold">$182 for 3 days</p>
+      <div class="price flex justify-between gap-5 lg:gap-20">
+       <button class="bg-green-200 rounded p-1 mt-6 text-black text-[15px]">save &#36;6</button>
+       <p class="text-black mt-6 font-bold text-[15px]">$182 for 3 days</p>
       </div>
     </div>
 
-
-    <div class="min-w-[300px]   text-white flex items-left rounded flex-col p-3">
-      <div class="image w-[300px] h-[150px] rounded-xl overflow-hidden">
-       <img src="https://images.turo.com/media/vehicle/images/RQvuUrS3QoqUztFAFUiOQA.445x238.jpg" alt="hero image" class="object-cover w-[300px] h-[150px]">
+    <div class="lg:w-[330px] w-[180px] shrink-0  text-white flex items-left rounded flex-col p-3">
+      <div class="image  sm:w-[150px] lg:w-[300px] h-[150px] rounded-xl overflow-hidden">
+       <img src="https://images.turo.com/media/vehicle/images/uuv8qugiQjGdf5TZ0V8uaw.445x238.jpg" alt="hero image" class="object-cover  lg:w-[300px] lg:h-[150px] w-[250px]  ">
       </div>
-      <h1 class="font-bold text-2xl text-black">Chevrolet Equinox 2026</h1>
+      <h1 class="font-bold mt-[-60px] lg:mt-0 text-xl lg:text-2xl text-black">Chevrolet Equinox 2026</h1>
       <p class="text-xl text-black font-bold">4.99  <span class="text-blue-800">&#9733;</span> <span class="text-gray-500 font-extralight">(14 Trips)</span></p>
-      <div class="price flex justify-between gap-20">
-       <button class="bg-green-200 rounded p-1 mt-6 text-black">save &#36;6</button>
-       <p class="text-black mt-6 font-bold">$182 for 3 days</p>
+      <div class="price flex justify-between gap-5 lg:gap-20">
+       <button class="bg-green-200 rounded p-1 mt-6 text-black text-[15px]">save &#36;6</button>
+       <p class="text-black mt-6 font-bold text-[15px]">$182 for 3 days</p>
       </div>
     </div>
 
-
-    <div class="min-w-[300px]   text-white flex items-left rounded flex-col p-3">
-      <div class="image w-[300px] h-[150px] rounded-xl overflow-hidden">
-       <img src="https://images.turo.com/media/vehicle/images/zzKlgzG4TFOY3PtipUO02Q.445x238.jpg" alt="hero image" class="object-cover w-[300px] h-[150px]">
+    <div class="lg:w-[330px] w-[180px] shrink-0  text-white flex items-left rounded flex-col p-3">
+      <div class="image  sm:w-[150px] lg:w-[300px] h-[150px] rounded-xl overflow-hidden">
+       <img src="https://images.turo.com/media/vehicle/images/uuv8qugiQjGdf5TZ0V8uaw.445x238.jpg" alt="hero image" class="object-cover  lg:w-[300px] lg:h-[150px] w-[250px]  ">
       </div>
-      <h1 class="font-bold text-2xl text-black">Chevrolet Equinox 2026</h1>
+      <h1 class="font-bold mt-[-60px] lg:mt-0 text-xl lg:text-2xl text-black">Chevrolet Equinox 2026</h1>
       <p class="text-xl text-black font-bold">4.99  <span class="text-blue-800">&#9733;</span> <span class="text-gray-500 font-extralight">(14 Trips)</span></p>
-      <div class="price flex justify-between gap-20">
-       <button class="bg-green-200 rounded p-1 mt-6 text-black">save &#36;6</button>
-       <p class="text-black mt-6 font-bold">$182 for 3 days</p>
+      <div class="price flex justify-between gap-5 lg:gap-20">
+       <button class="bg-green-200 rounded p-1 mt-6 text-black text-[15px]">save &#36;6</button>
+       <p class="text-black mt-6 font-bold text-[15px]">$182 for 3 days</p>
       </div>
     </div>
 
+    <div class="lg:w-[330px] w-[180px] shrink-0  text-white flex items-left rounded flex-col p-3">
+      <div class="image  sm:w-[150px] lg:w-[300px] h-[150px] rounded-xl overflow-hidden">
+       <img src="https://images.turo.com/media/vehicle/images/uuv8qugiQjGdf5TZ0V8uaw.445x238.jpg" alt="hero image" class="object-cover  lg:w-[300px] lg:h-[150px] w-[250px]  ">
+      </div>
+      <h1 class="font-bold mt-[-60px] lg:mt-0 text-xl lg:text-2xl text-black">Chevrolet Equinox 2026</h1>
+      <p class="text-xl text-black font-bold">4.99  <span class="text-blue-800">&#9733;</span> <span class="text-gray-500 font-extralight">(14 Trips)</span></p>
+      <div class="price flex justify-between gap-5 lg:gap-20">
+       <button class="bg-green-200 rounded p-1 mt-6 text-black text-[15px]">save &#36;6</button>
+       <p class="text-black mt-6 font-bold text-[15px]">$182 for 3 days</p>
+      </div>
+    </div>
 
   </div>
 </div>
 
 
-<footer class="w-full bg-slate-200 h-[80vh] gap-4 p-5">
+
+<footer class="w-full bg-slate-200 h-[80vh] gap-4 p-5 items-center">
 <div class="upper w-[80vw] h-[50%] mx-auto p-3 border-b-1 border-slate-300 text-center items-center justify-center ">
   <div class="filters lg:w-[80vw]  flex-nowrap   p-1  mx-auto lg:mt-8 mt-4 flex  items-center justify-center gap-5  lg:gap-8 text-center overflow-scroll lg:overflow-hidden">
     <button class=" p-3  font-semibold border-b-2">Vehicle Type</button>
